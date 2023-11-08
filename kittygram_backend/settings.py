@@ -110,6 +110,8 @@ REST_FRAMEWORK = {
     'DEFAULT_AUTHENTICATION_CLASSES': [
         'rest_framework.authentication.TokenAuthentication',
     ],
+    #  user/password user1/pass1pass1
+    #  "auth_token": "e006b890f8553e3f6735b3d2befdaa25452fe1d8"
 
     'DEFAULT_PAGINATION_CLASS': ('rest_framework.pagination.' +
                                  'PageNumberPagination'),
